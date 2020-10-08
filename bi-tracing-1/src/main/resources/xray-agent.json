@@ -1,0 +1,16 @@
+{
+    "serviceName": "BI-Tracing-1",
+    "contextMissingStrategy": "LOG_ERROR",
+    "daemonAddress": "127.0.0.1:2000",
+    "tracingEnabled": true,
+    "samplingStrategy": "ALL",
+    "traceIdInjectionPrefix": "prefix",
+    "awsSdkVersion": 2,
+    "maxStackTraceLength": 50,
+    "streamingThreshold": 100,
+    "traceIdInjection": true,
+    "pluginsEnabled": false,
+    "collectSqlQueries": true,
+    "contextPropagation": true,
+    "enableLoggingRequestDetails": true
+}
